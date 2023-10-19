@@ -178,7 +178,7 @@ class Child(tk.Toplevel):
         btn_cancel = tk.Button(self, text = 'Закрыть', command = self.destroy)
         btn_cancel.place(x=120, y=160)
 
-# 
+# класс окна редактирования
 class Update(Child):
     def __init__(self):
         super().__init__()
